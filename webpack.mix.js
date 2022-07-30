@@ -14,11 +14,14 @@ const tailwindcss = require('tailwindcss');
 
 mix.js('resources/js/app.js', 'public/assets/js')
     .sass('resources/sass/app.scss', 'public/assets/css')
+    .sass('resources/sass/frontend/frontend.scss', 'public/assets/css')
+    .sass('resources/sass/admin/admin.scss', 'public/assets/css')
     .options({
         processCssUrls: false,
         postCss: [tailwindcss('./tailwind.config.js')],
     })
-    /* .copyDirectory('resources/js/tinymce/', 'public/assets/', false)
+    /*.copyDirectory('resources/js/tinymce/', 'public/assets/', false)*/
     .copy(
         'node_modules/@fortawesome/fontawesome-free/webfonts','public/assets/webfonts'
-    ); */
+    );
+;

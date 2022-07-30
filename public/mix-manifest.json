@@ -1,4 +1,14 @@
 {
     "/assets/js/app.js": "/assets/js/app.js",
-    "/assets/css/app.css": "/assets/css/app.css"
+    "/assets/css/admin.css": "/assets/css/admin.css",
+    "/assets/css/frontend.css": "/assets/css/frontend.css",
+    "/assets/css/app.css": "/assets/css/app.css",
+    "/assets/webfonts/fa-brands-400.ttf": "/assets/webfonts/fa-brands-400.ttf",
+    "/assets/webfonts/fa-brands-400.woff2": "/assets/webfonts/fa-brands-400.woff2",
+    "/assets/webfonts/fa-regular-400.ttf": "/assets/webfonts/fa-regular-400.ttf",
+    "/assets/webfonts/fa-regular-400.woff2": "/assets/webfonts/fa-regular-400.woff2",
+    "/assets/webfonts/fa-solid-900.ttf": "/assets/webfonts/fa-solid-900.ttf",
+    "/assets/webfonts/fa-solid-900.woff2": "/assets/webfonts/fa-solid-900.woff2",
+    "/assets/webfonts/fa-v4compatibility.ttf": "/assets/webfonts/fa-v4compatibility.ttf",
+    "/assets/webfonts/fa-v4compatibility.woff2": "/assets/webfonts/fa-v4compatibility.woff2"
 }

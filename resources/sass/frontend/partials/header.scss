@@ -1,0 +1,31 @@
+header {
+    .navbar {
+        @apply bg-slate-900 w-full flex flex-wrap items-center justify-between py-4 shadow-lg shadow-slate-700/50;
+        .container {
+            @apply flex flex-wrap items-center justify-between;
+        }
+        .navbar-brand {
+
+        }
+        .navbar-toggler {
+            .fa-bars {
+                @apply text-white;
+            }
+            .fa-times {
+                @apply text-slate-500;
+            }
+        }
+        #frontendNavbar {
+            @apply flex-grow items-center;
+            ul {
+                @apply flex flex-col lg:flex-row ml-auto list-none ml-auto;
+
+                li {
+                    a {
+                        @apply text-white font-semibold text-xl;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -7,6 +7,7 @@ module.exports = {
         './node_modules/tw-elements/dist/js/**/*.js',
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
+        './resources/sass/**/*.scss',
     ],
 
     theme: {
